@@ -1,8 +1,8 @@
 body{
     margin: 0 auto;
     padding: 0;
-    background-image: url("../img/backimage2.jpg");
-    background-size: 100%;
+    background: linear-gradient(120deg,#00c4cc 25%,#6e4593 85%);
+    background-attachment: fixed;
 }
 
 header nav{
@@ -10,7 +10,8 @@ header nav{
     height: 100px;
     background-color: #fff;
     padding: 25px;
-    display: block;
+    position: fixed;
+    z-index: 999;
 }
 
 nav button{
@@ -70,4 +71,58 @@ nav button{
     border-radius: 20px;
     padding: 0px 50px;
     outline: none;
+}
+
+#menu{
+    position: fixed;
+    display: none;
+    width: 200px;
+    height: 100vh;
+    background-color: #fff;
+    margin: 0 auto;
+    left: 0;
+}
+
+#menu button{
+    width: 100%;
+    margin-top: 20px;
+}
+
+#menu button i{
+    font-size: 20px;
+    position: absolute;
+    left: 23px;
+}
+
+.content--tudo{
+    width: 100%;
+    position: absolute;
+}
+
+#container{
+    margin-top: 100px;
+}
+
+.content{
+    position: relative;
+    width: 80%;
+}
+
+.recomend{
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.recomend h2{
+    color: #fff;
+}
+
+.card{
+    width: 30%;
+    height: 200px;
+    background-color: #0f0f0f;
+    display: inline;
+    margin: 0px 20px 0px 0px;
+    border-radius: 5px;
 }
