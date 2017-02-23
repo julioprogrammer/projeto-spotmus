@@ -1,0 +1,124 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-image: url("/images/backimage.jpg");
+    background-size: 100%;
+}
+
+.containerLogin{
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login__content{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 20px 0px;
+    color: #fff;
+    border-radius: 10px;
+    display: none;
+}
+
+.login__content h3{
+    margin-top: 26px;
+    margin-left: 104px;
+}
+
+.icon--produto img{
+    width: 80px;
+    position: relative;
+    margin: 0 auto;
+    left: 0;
+    top: 0;
+    float: left;
+}
+
+.arealogin{
+    border-right: 1px solid #fff;
+}
+
+.arealogin--header{
+    margin-bottom: 20px;
+}
+
+.arealogin--body{
+    margin-left: 50px;
+}
+
+.arealogin--footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.arealogin--footer p{
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.arealogin--footer a{
+    font-weight: bold;
+    font-size: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.arealogin--footer hr{
+    width: 100px;
+}
+
+.arealogin button{
+    width: 320px;
+    margin-top:20px ;
+}
+
+.areainfo{
+
+}
+
+.areainfo--header p{
+    font-size: 18px;
+    margin: 50px;
+}
+
+.areainfo--body{
+    margin-left: 50px;
+}
+
+.areacadastro{
+
+}
+
+.areacadastro .form-group{
+    margin: 10px 0px;
+}
+
+.areacadastro button{
+    width: 100px;
+    margin-left: 150px;
+}
+
+.displayFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-facebook{
+    height: 50px;
+    background-color: #3b5998;
+    font-size: 18px;
+}
+
+.btn-google{
+    height: 50px;
+    background-color: #dd4b39;
+    font-size: 18px;
+}
+
+.hidden{
+    transition: 2s !important;
+}
