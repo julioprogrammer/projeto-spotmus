@@ -19,6 +19,7 @@ body{
     margin: 20px 0px;
     color: #fff;
     border-radius: 10px;
+    display: none;
 }
 
 .login__content h3{
@@ -87,6 +88,19 @@ body{
     margin-left: 50px;
 }
 
+.areacadastro{
+
+}
+
+.areacadastro .form-group{
+    margin: 10px 0px;
+}
+
+.areacadastro button{
+    width: 100px;
+    margin-left: 150px;
+}
+
 .displayFlex{
     display: flex;
     align-items: center;
@@ -103,4 +117,8 @@ body{
     height: 50px;
     background-color: #dd4b39;
     font-size: 18px;
+}
+
+.hidden{
+    transition: 2s !important;
 }
