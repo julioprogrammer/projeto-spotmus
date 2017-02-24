@@ -101,6 +101,7 @@ nav button{
 
 #container{
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .content{
@@ -121,8 +122,184 @@ nav button{
 .card{
     width: 30%;
     height: 200px;
-    background-color: #0f0f0f;
+    background-color: #fff;
     display: inline;
     margin: 0px 20px 0px 0px;
     border-radius: 5px;
+}
+
+.capa__img img{
+    position: absolute;
+    margin:0 auto;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 70%;
+    border-radius: 5px;
+}
+
+.capa__img span{
+    padding: 10px;
+    position: absolute;
+    margin:0 auto;
+    bottom: 70px;
+    left: 10px;
+    font-size: 18px;
+    color: #fff;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 10px;
+}
+
+.social__icons{
+    width: 80%;
+}
+
+.social__icons span{
+    display: inline;
+    position: relative;
+    /* left: 20px; */
+    top: 150px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.social__icons span:hover{
+    cursor: pointer;
+}
+
+.facebook__icon--color{
+    color: #3b5998;
+}
+
+.google__icon--color{
+    color: #dd4b39;
+}
+
+.twitter__icon--color{
+    color: #00aced;
+}
+
+.play__button{
+    position: absolute;
+    right: 26px;
+    bottom: 10px;
+    font-size: 30px;
+}
+
+.play__button--active{
+    color: #551A8B;
+}
+
+.play__button span:hover{
+    cursor: pointer;
+}
+
+footer i:hover{
+    cursor: pointer;
+}
+
+footer .controls{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 999;
+    margin:0 auto;
+    bottom: 0;
+    left: 0;
+}
+
+footer .thumbnail--player{
+    position: absolute;
+    width: 120px;
+    height: 100%;
+    background-color: #0f0f0f;
+    border-radius: 0px 7px 7px 0px;
+}
+
+footer .thumbnail--player img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0 7px 7px 0px;
+}
+
+footer .detalhe--player{
+    position: absolute;
+    margin:0 auto;
+    left:150px;
+    top:20px;
+}
+
+footer .detalhe--player .titulo--player{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+footer .detalhe--player .subtitulo--player{
+    font-size: 15px;
+}
+
+footer .controls__button--left--small{
+    position: absolute;
+    margin:0 auto;
+    left:400px;
+    top: 50px;
+}
+
+footer .controls__button--left--small i{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+footer .controls__button--center--small{
+    position: absolute;
+    margin:0 auto;
+    left: 40%;
+    top:30px;
+}
+
+footer .controls__button--center--small i{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+footer .controls__button--right--small{
+    position: absolute;
+    margin:0 auto;
+    left: 65%;
+    top: 50px;
+}
+
+footer .controls__button--right--small i{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+footer .socials{
+    position: absolute;
+    margin:0 auto;
+    right: 10px;
+    bottom: 10px;
+}
+
+footer .socials i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.invert{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+#ex1Slider .slider-selection {
+    background: #BABABA;
+}
+
+.large{
+    font-size: 50px !important;
 }

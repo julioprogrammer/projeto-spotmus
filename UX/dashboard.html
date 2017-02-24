@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/font-awesome.css" />
     <!-- criados -->
     <link rel="stylesheet" href="css/dashboard.css" />
+    <link rel="stylesheet" href="css/slider.css"/>
 </head>
 <body>
 
@@ -55,13 +56,46 @@
                     <div class="recomend col-md-12">
                         <h2>Recomendado para você</h2>
                         <div class="card col-md-4">
-
+                            <div class="capa__img">
+                                <img src="img/capa4.jpg"/>
+                                <span>NerdCast #466</span>
+                            </div>
+                            <div class="social__icons">
+                                <span class="facebook__icon--color"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                                <span class="google__icon--color"><i class="fa fa-google-plus" aria-hidden="true"></i></span>
+                                <span class="twitter__icon--color"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="play__button">
+                                <span class="play__button--active"><i class="fa fa-play" aria-hidden="true"></i></span>
+                            </div>
                         </div>
                         <div class="card col-md-4">
-
+                            <div class="capa__img">
+                                <img src="img/capa2.jpg"/>
+                                <span>NerdCast #395</span>
+                            </div>
+                            <div class="social__icons">
+                                <span class="facebook__icon--color"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                                <span class="google__icon--color"><i class="fa fa-google-plus" aria-hidden="true"></i></span>
+                                <span class="twitter__icon--color"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="play__button">
+                                <span><i class="fa fa-play" aria-hidden="true"></i></span>
+                            </div>
                         </div>
                         <div class="card col-md-4">
-
+                            <div class="capa__img">
+                                <img src="img/capa3.jpg"/>
+                                <span>NerdCast #291</span>
+                            </div>
+                            <div class="social__icons">
+                                <span class="facebook__icon--color"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                                <span class="google__icon--color"><i class="fa fa-google-plus" aria-hidden="true"></i></span>
+                                <span class="twitter__icon--color"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="play__button">
+                                <span><i class="fa fa-play" aria-hidden="true"></i></span>
+                            </div>
                         </div>
                     </div>
 
@@ -93,6 +127,38 @@
                 </div>
             </section>
         </section>
+        <footer>
+            <div class="controls">
+                <input type="text" id="foo" class="span2" value="" data-slider-min="-20" data-slider-max="20" data-slider-step="1" data-slider-value="-14" data-slider-orientation="horizontal" data-slider-selection="after"data-slider-tooltip="hide">
+                <div class="thumbnail--player">
+                    <img src="img/capa4.jpg"/>
+                </div>
+                <div class="detalhe--player">
+                    <span class="titulo--player">NerdCast #446</span><br>
+                    <span class="subtitulo--player">Jovem Nerd</span>
+                </div>
+                <div class="controls__button--left--small">
+                    <i class="fa fa-thumbs-o-up invert1" aria-hidden="true"></i>
+                    <i class="fa fa-thumbs-o-down invert" aria-hidden="true"></i>
+                </div>
+                <div class="controls__button--center--small">
+                    <i class="fa fa-exchange" aria-hidden="true"></i>
+                    <i class="fa fa-backward" aria-hidden="true"></i>
+                    <i class="fa fa-play large play__button--active" aria-hidden="true"></i>
+                    <i class="fa fa-forward" aria-hidden="true"></i>
+                    <i class="fa fa-random" aria-hidden="true"></i>
+                </div>
+                <div class="controls__button--right--small">
+                    <i class="fa fa-volume-up" aria-hidden="true"></i>
+                    <i class="fa fa-th-list" aria-hidden="true"></i>
+                </div>
+                <div class="socials">
+                    <span class="facebook__icon--color"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                    <span class="google__icon--color"><i class="fa fa-google-plus" aria-hidden="true"></i></span>
+                    <span class="twitter__icon--color"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                </div>
+            </div>
+        </footer>
     </div>
 
     <!-- jquery -->
@@ -100,6 +166,7 @@
     <!-- bootstrap -->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://use.fontawesome.com/110606e01b.js"></script>
+    <script type="text/javascript" src="js/bootstrap-slider.js"></script>
     <!-- criados -->
     <script type="text/javascript" src="js/functions.js"></script>
 </body>

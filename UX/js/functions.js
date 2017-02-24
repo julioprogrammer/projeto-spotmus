@@ -12,3 +12,8 @@ $('#btnEmail').click(function () {
 $('#btnMenu').click(function (){
   $("#menu").animate({width:'toggle'},350);
 })
+
+$('#foo').slider()
+    .on('slide', function(ev){
+        $('#bar').val(ev.value);
+    });
