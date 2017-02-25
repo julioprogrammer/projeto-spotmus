@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Spotmus Web</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css" />
+    <link rel="stylesheet" href="/stylesheets/font-awesome.css" />
+    <!-- materialize -->
+    <link rel="stylesheet" href="/stylesheets/materialize.css"/>
+    <!-- criados -->
+    <link rel="stylesheet" href="/stylesheets/dashboard.css" />
+    <link rel="stylesheet" href="/stylesheets/slider.css"/>
+    <!-- animacoes -->
+    <link rel="stylesheet" href="/stylesheets/all-animation.min.css"/>
+</head>
+<body>
+
+<div class="containerLogin">
+    <header>
+        <nav>
+            <button id="btnMenu" type="button" class="btn btn-menu" data-activates="slide-out">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+
+            <div class="logo__img--small">
+                <img src="/images/7766842_orig.png"/>
+                <span>Spotmus Web</span>
+            </div>
+
+            <div class="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input type="text" placeholder="Pesquisar"/>
+            </div>
+
+            <button type="button" class="btn btn-submenu dropdown-toggle">
+                <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section id="container" class="content--tudo">
+        <article>
+            <ul id="slide-out" class="side-nav">
+                <li>
+                    <div class="userView">
+                        <div class="background">
+                            <img src="https://nodejs.org/static/images/logos/nodejs-2560x1440.png">
+                        </div>
+                        <a href="#!user"><img class="circle" src="https://www.atomix.com.au/media/2015/06/atomix_user31.png"></a>
+                        <a href="#!name"><span class="white-text name">John Doe</span></a>
+                        <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                    </div>
+                </li>
+                <li><a href="#!"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                <li><a href="#!"><i class="fa fa-certificate" aria-hidden="true"></i> Lançamentos</a></li>
+                <li><a href="#!"><i class="fa fa-thermometer-full" aria-hidden="true"></i> Em alta</a></li>
+                <li><a href="#!"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Artistas</a></li>
+                <li><a href="#!"><i class="fa fa-stack-overflow" aria-hidden="true"></i> Albums</a></li>
+                <li><a href="#!"><i class="fa fa-music" aria-hidden="true"></i> Músicas</a></li>
+                <li><a href="#!"><i class="fa fa-th-list" aria-hidden="true"></i> Playlists</a></li>
+                <li><div class="divider"></div></li>
+                <li><a class="subheader">Sistema</a></li>
+                <li><a href="#!"><i class="fa fa-cog" aria-hidden="true"></i> Configurações</a></li>
+                <li><a href="#!"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a></li>
+            </ul>
+        </article>
+
+        <section class="col-md-10 col-md-offset-2">
+            <div class="content">
+                <div class="recomend col-md-12">
+                    <h2>Recomendado para você</h2>
+                    <div class="card col-md-4">
+                        <div class="capa__img">
+                            <img src="/images/capa4.jpg"/>
+                            <span>NerdCast #466</span>
+                        </div>
+                        <div class="social__icons">
+                            <span class="facebook__icon--color"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                            <span class="google__icon--color"><i class="fa fa-google-plus" aria-hidden="true"></i></span>
+                            <span class="twitter__icon--color"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="play__button">
+                            <span class="play__button--active"><i class="fa fa-play" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <div class="capa__img">
+                            <img src="/images/capa2.jpg"/>
+                            <span>NerdCast #395</span>
+                        </div>
+                        <div class="social__icons">
+                            <span class="facebook__icon--color"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                            <span class="google__icon--color"><i class="fa fa-google-plus" aria-hidden="true"></i></span>
+                            <span class="twitter__icon--color"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="play__button">
+                            <span><i class="fa fa-play" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <div class="capa__img">
+                            <img src="/images/capa3.jpg"/>
+                            <span>NerdCast #291</span>
+                        </div>
+                        <div class="social__icons">
+                            <span class="facebook__icon--color"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                            <span class="google__icon--color"><i class="fa fa-google-plus" aria-hidden="true"></i></span>
+                            <span class="twitter__icon--color"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="play__button">
+                            <span><i class="fa fa-play" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="recomend col-md-12">
+                    <h2>Recomendado para você</h2>
+                    <div class="card col-md-4">
+
+                    </div>
+                    <div class="card col-md-4">
+
+                    </div>
+                    <div class="card col-md-4">
+
+                    </div>
+                </div>
+
+                <div class="recomend col-md-12">
+                    <h2>Recomendado para você</h2>
+                    <div class="card col-md-4">
+
+                    </div>
+                    <div class="card col-md-4">
+
+                    </div>
+                    <div class="card col-md-4">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <div class="controls">
+            <input type="text" id="foo" class="span2" value="" data-slider-min="-20" data-slider-max="20" data-slider-step="1" data-slider-value="-14" data-slider-orientation="horizontal" data-slider-selection="after"data-slider-tooltip="hide">
+            <div class="thumbnail--player">
+                <img src="/images/capa4.jpg"/>
+            </div>
+            <div class="detalhe--player">
+                <span class="titulo--player">NerdCast #446</span><br>
+                <span class="subtitulo--player">Jovem Nerd</span>
+            </div>
+            <div class="controls__button--left--small">
+                <i class="fa fa-thumbs-o-up invert1" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-o-down invert" aria-hidden="true"></i>
+            </div>
+            <div class="controls__button--center--small">
+                <i class="fa fa-exchange" aria-hidden="true"></i>
+                <i class="fa fa-backward" aria-hidden="true"></i>
+                <i class="fa fa-play large play__button--active" aria-hidden="true"></i>
+                <i class="fa fa-forward" aria-hidden="true"></i>
+                <i class="fa fa-random" aria-hidden="true"></i>
+            </div>
+            <div class="controls__button--right--small">
+                <div class="dropup">
+                    <i class="fa fa-volume-up dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                    <ul class="dropdown-menu">
+                        <input type="text" id="sound" class="span2" value="" data-slider-min="-20" data-slider-max="20" data-slider-step="1" data-slider-value="-14" data-slider-orientation="vertical" data-slider-selection="before">
+                    </ul>
+                </div>
+                <i class="fa fa-th-list" aria-hidden="true"></i>
+            </div>
+            <div class="socials">
+                <span class="facebook__icon--color"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                <span class="google__icon--color"><i class="fa fa-google-plus" aria-hidden="true"></i></span>
+                <span class="twitter__icon--color"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<!-- jquery -->
+<script type="text/javascript" src="/javascripts/jquery-3.1.1.min.js"></script>
+<!-- materialize -->
+<script type="text/javascript" src="/javascripts/materialize.min.js"></script>
+<!-- bootstrap -->
+<script type="text/javascript" src="/javascripts/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://use.fontawesome.com/110606e01b.js"></script>
+<script type="text/javascript" src="/javascripts/bootstrap-slider.js"></script>
+<!-- criados -->
+<script type="text/javascript" src="/javascripts/functions.js"></script>
+</body>
+</html>

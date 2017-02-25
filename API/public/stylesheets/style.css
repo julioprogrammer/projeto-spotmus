@@ -1,7 +1,10 @@
 body{
+    background: linear-gradient( rgba(110,69,147, 0.85), rgba(110,69,147, 0.9) ),url("/images/backimage.jpg"),linear-gradient( rgba(110,69,147, 0.5), rgba(110,69,147, 0.7) );
+    background-color: #e0e0e0;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
     margin: 0 auto;
     padding: 0;
-    background-image: url("/images/backimage.jpg");
     background-size: 100%;
 }
 
@@ -71,7 +74,6 @@ body{
 }
 
 .arealogin button{
-    width: 320px;
     margin-top:20px ;
 }
 
