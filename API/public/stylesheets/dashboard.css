@@ -126,7 +126,7 @@ nav button{
     width: 30%;
     height: 200px;
     background-color: #fff;
-    margin: 0px 20px 0px 0px;
+    margin: 0px 20px 20px 0px;
     border-radius: 5px;
 }
 
@@ -275,6 +275,12 @@ footer .controls__button--right--small{
 footer .controls__button--right--small i{
     font-size: 30px;
     margin-left: 20px;
+    float: left;
+}
+
+footer .jp-volume-bar{
+    margin-left: 9px;
+    margin-top: 9px;
 }
 
 footer .socials{
@@ -317,4 +323,43 @@ footer .socials i{
 .dropup{
     display: inline;
     background: transparent;
+}
+
+.player-timeline {
+    position: absolute;
+    float: left;
+    left: 130px;
+    top:8px;
+    width: 86% !important;
+    height: 10px;
+    background: #ccc;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.player-timeline-control {
+    position: absolute;
+    height: 10px;
+    background: #551A8B;
+    border-radius: 5px;
+    cursor: pointer;
+    top: 0;
+    bottom: 0;
+}
+
+.jp-volume-bar {
+    width: 100px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+}
+
+.jp-volume-bar-value {
+    height: 10px;
+    background: #551A8B;
+    border-radius: 5px;
+    cursor: pointer;
 }
